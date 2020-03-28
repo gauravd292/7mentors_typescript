@@ -1,0 +1,31 @@
+Remove tsc error:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+
+Optional param:
+(?) is used to define optional parameters.
+In function undefind condition must be checked
+function calculate(pi:number, name:string, price: number, discount?:number):void{}
+
+Arrow fn/ Flat fn/ Lambda fn:
+Used for anonymous functions.
+
+Object : Entity which has well defined structure and behaviour.
+- identity
+- state
+- behaviour
+- responsibility
+
+Object Oriented Programming Specifications (OOPS)
+- Abstraction - Absorbing req data
+- Encapsulation - Hide data (provide iterface)
+- Inheritance - Inherited from parents (Reusability & Extensibility)
+- Polymorphism - One name many form - (Extensibility) ----- Not allowed in TS
+
+class ClassName{
+	dataMember;
+	constructor(){}
+	methods(){}
+}
+this keyword is explicite in TS means youhave to written it manually.
+
+------
